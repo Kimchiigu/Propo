@@ -22,24 +22,23 @@ public class Proposal {
 		return author;
 	}
 	public String getName() {
-        return this.author.getName();
-    }
-    public int getAge() {
-        return this.author.getAge();
-    }
-    public Address getAddress() {
-        return this.author.getAddress();
-    }
-    public String getStreet() {
-        return this.author.getStreet();
-    }
-    public int getNumber() {
-        return this.author.getNumber();
-    }
+        	return this.author.getName();
+    	}
+    	public int getAge() {
+        	return this.author.getAge();
+    	}
+    	public Address getAddress() {
+        	return this.author.getAddress();
+    	}
+    	public String getStreet() {
+        	return this.author.getStreet();
+    	}
+    	public int getNumber() {
+        	return this.author.getNumber();
+    	}
 
 	public Proposal copyProposal(Proposal proposal) {
 		Proposal newProposal = new Proposal(proposal.getProposalName(), proposal.getProposalDescription(), proposal.getAuthor());
-		
 		return newProposal;
 	}
 

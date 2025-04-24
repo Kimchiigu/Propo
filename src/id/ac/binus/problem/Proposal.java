@@ -1,5 +1,11 @@
 package id.ac.binus.problem;
 
+/*
+ * Smell Code : Missing Abstraction
+ * Reason     : Developer menggunakan primitive data type dan juga terdapat data clumps
+ * Treatment  : Extract Class
+ */
+
 public class Proposal {
 
 	private String proposalName;

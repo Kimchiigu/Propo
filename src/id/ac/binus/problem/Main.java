@@ -9,7 +9,8 @@ public class Main {
 		DisplayProposal displayProposal = new DisplayProposal();
 		displayProposal.displayProposal(proposal);
 		CopyProposal copyProposal = new CopyProposal();
-		copyProposal.copyProposal(proposal);
+		Proposal newProposal = copyProposal.copyProposal(proposal);
+		displayProposal.displayProposal(newProposal);
 	}
 
 }

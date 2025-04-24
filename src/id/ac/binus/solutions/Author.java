@@ -14,12 +14,16 @@ public class Author {
     public String getName() {
         return name;
     }
-
     public int getAge() {
         return age;
     }
-
     public Address getAddress() {
         return address;
+    }
+    public String getStreet() {
+        return this.address.getStreet();
+    }
+    public int getNumber() {
+        return this.address.getNumber();
     }
 }

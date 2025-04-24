@@ -8,7 +8,8 @@ public class Main {
 		Proposal proposal = new Proposal("Projek Code RE", 
 				"Projek ini merupakan tugas dari mata kuliah Code Reengineering LE01", author);
 		proposal.displayProposal(proposal);
-		proposal.copyProposal(proposal);
+		Proposal newProposal = proposal.copyProposal(proposal);
+		newProposal.displayProposal(newProposal);
 	}
 
 }

@@ -1,5 +1,11 @@
 package id.ac.binus.problem;
 
+/*
+ * Smell Code : Imperative Abstraction
+ * Reason     : Developer membuat class yang hanya berisi 1 method dan merupakan kata kerja
+ * Solution   : Inline Class
+ */
+
 public class CopyProposal {
 
 	public Proposal copyProposal(Proposal proposal) {
